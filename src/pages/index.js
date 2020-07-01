@@ -48,23 +48,23 @@ const Index = () => {
         <Logo />
         <MenuPrincipal />
       </Header>
-      <div className='sm:p-8 sm:py-20 bg-black bg-opacity-75 flex flex-col sm:flex-row justify-around'>
+      <div className='sm:p-6 sm:py-20 bg-black bg-opacity-75 flex flex-col sm:flex-row justify-around'>
         <div className='flex flex-col items-center justify-center'>
-          <h1 className='text-2xl text-yellow-500 font-bold'>Richard Krasnuk</h1>
-          <p className='text-lg text-gray-400 mb-6'>Músico e Produtor</p>
-          <p className='text-base text-white'>
+          <h1 className='mt-4 sm:mt-0 text-2xl text-center text-yellow-500 font-bold'>Richard Krasnuk</h1>
+          <p className='text-lg text-center text-gray-400 mb-6'>Músico e Produtor</p>
+          <p className='text-base text-center text-white'>
             Temos as melhores <strong className='text-yellow-500'>OFERTAS</strong><br />
             para <strong className='text-yellow-500'>PRODUZIR</strong> o seu <strong className='text-yellow-500'>SONHO</strong>!
           </p>
-          <p className='mt-6 text-base text-gray-400'>Faça o seu orçamento pelo whatsapp!</p>
+          <p className='mt-6 text-center text-base text-gray-400'>Faça o seu orçamento pelo whatsapp!</p>
           <div className='p-2 rounded bg-gray-300 flex items-center mt-6 mb-6 sm:mt-6'>
             <a href="https://wa.me/5511985983282?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento.">
               <img src={btnWhatsapp} alt="Botão do whatsapp" className='mr-2' />
             </a>
-            <p className='text-2xl font-bold'>(11) 985983283</p>
+            <p className='text-l font-bold'>(11) 985983283</p>
           </div>
         </div>
-        <div className='mb-6'>
+        <div className='mb-6 sm:ml-2'>
           <img src={imgMain} alt="Imagem de Richard Krasnuk gravando teclado"  className='rounded shadow' />
         </div>
       </div>
